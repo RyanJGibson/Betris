@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<title>Betris Demo</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+		<script src="lib/pixi.js"></script>
+		<script src="lib/TweenMax.js"></script>
+		<script src="game.min.js"></script>
+		<style>
+			html, body{
+				height:100%;
+				overflow:hidden;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				background-color:#CCCCCC;
+				margin:0px;
+			}
+			#myCanvas{
+				width:100%;
+				height:100%;
+			}
+			#devUI{
+				max-width:150px;
+				height:230px;
+				background-color:#333333;
+				position: fixed;
+				text-align: center;
+				color: #ffffff;
+				top:5px;
+				left:5px;
+			}
+			.devButton{
+				width:120px;
+				height:40px;
+				background-color: #666666;
+				border: none;
+				color:#FFFFFF;
+				margin:5px auto;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<canvas id="myCanvas"></canvas>
+		<div id='devUI'>
+			BETRIS DEMO
+			<input class='devButton' type="button" value="Run Data Set 1" onclick="window.Game.Init(0)">
+			<input class='devButton' type="button" value="Run Data Set 2" onclick="window.Game.Init(1)">
+			<input class='devButton' type="button" value="Run Data Set 3" onclick="window.Game.Init(2)">
+			<input class='devButton' type="button" value="Randomised Data" onclick="window.Game.Init(-1)">
+		</div>
+	</body>
+<html>

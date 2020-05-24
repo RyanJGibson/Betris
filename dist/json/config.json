@@ -1,0 +1,206 @@
+{
+  "generic":{
+    "nVersion":"1.0.0",
+    "aCanvasPixelDimensions":[250,700],
+    "aGridTileDimensions":[3,12],
+    "nGridSpawnAreaHeight":4,
+    "aGridCellPixelDimensions":[35,35],
+    "nDefaultDropList":0,
+    "nGridLineColour":"0x555555",
+    "nGridCellColour":"0x666666",
+    "nDropSpeed":15
+  },
+  "aDropLists":[
+    [
+      {	"nShape":0,
+        "nRotation":0,
+        "nColumn":0
+      },
+      {	"nShape":1,
+        "nRotation":1,
+        "nColumn":1
+      },
+      {	"nShape":2,
+        "nRotation":1,
+        "nColumn":2
+      },
+      {	"nShape":3,
+        "nRotation":1,
+        "nColumn":0
+      },
+      {	"nShape":4,
+        "nRotation":1,
+        "nColumn":1
+      }
+      
+    ],
+    [
+      {	"nShape":3,
+        "nRotation":0,
+        "nColumn":0
+      },
+      {	"nShape":3,
+        "nRotation":1,
+        "nColumn":2
+      },
+      {	"nShape":1,
+        "nRotation":1,
+        "nColumn":2
+      },
+      {	"nShape":0,
+        "nRotation":1,
+        "nColumn":0
+      },
+      {	"nShape":2,
+        "nRotation":1,
+        "nColumn":2
+      },
+      {	"nShape":0,
+        "nRotation":1,
+        "nColumn":0
+      },
+      {	"nShape":0,
+        "nRotation":2,
+        "nColumn":1
+      },
+      {	"nShape":1,
+        "nRotation":1,
+        "nColumn":0
+      },
+      {	"nShape":1,
+        "nRotation":1,
+        "nColumn":0
+      },
+      {	"nShape":1,
+        "nRotation":1,
+        "nColumn":1
+      } 
+
+    ],
+    [
+      {	"nShape":1,
+        "nRotation":1,
+        "nColumn":1
+      },
+      {	"nShape":1,
+        "nRotation":1,
+        "nColumn":1
+      },
+      {	"nShape":1,
+        "nRotation":1,
+        "nColumn":1
+      },
+      {	"nShape":1,
+        "nRotation":1,
+        "nColumn":1
+      },
+      {	"nShape":1,
+        "nRotation":1,
+        "nColumn":1
+      }
+     
+    ]
+  ],
+  
+  "aShapeLibrary":[
+
+    { 
+      "nColour": "0x815fc4",
+      "aRotations":[
+        [
+          [1,0],
+          [1,1]
+        ],
+        [
+          [1,1],
+          [1,0]
+        ],
+        [
+          [1,1],
+          [0,1]
+        ],
+        [
+          [0,1],
+          [1,1]
+        ]
+      ]
+    },
+
+    { "nColour": "0xb74387",
+      "aRotations":[
+        [
+          [1,1,1]
+        ],
+        [
+          [1],
+          [1],
+          [1]
+        ]
+      ]
+    },
+
+    { "nColour": "0xa1dfb8",
+      "aRotations":[
+        [
+          [1,0,1],
+          [0,1,0]
+        ],
+        [
+          [0,1],
+          [1,0],
+          [0,1]
+        ],
+        [
+          [0,1,0],
+          [1,0,1]
+        ],
+        [
+          [1,0],
+          [0,1],
+          [1,0]
+        ]
+      ]
+    },
+
+    { "nColour": "0xf2e84d",
+      "aRotations":[
+        [
+          [1,0,0],
+          [0,1,1]
+        ],
+        [
+          [0,1],
+          [1,0],
+          [1,0]
+        ],
+        [
+          [1,1,0],
+          [0,0,1]
+        ],
+        [
+          [0,1],
+          [0,1],
+          [1,0]
+        ]
+      ]
+    },
+
+    { "nColour": "0xa8d7ee",
+      "aRotations":[
+        [
+          [1,0,0],
+          [0,1,0],
+          [0,0,1]
+        ],
+        [
+          [0,0,1],
+          [0,1,0],
+          [1,0,0]
+        ]
+      ]
+    }
+
+  ]
+}
+
+
